@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 80px 4fr 150px;
+}
+
+header{
+    background-color: brown;
+}
+
+main{
+    background-color: cadetblue;
+}
+
+footer{
+    background-color: chartreuse;
+}
