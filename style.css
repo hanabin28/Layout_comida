@@ -8,17 +8,112 @@ body{
     display: grid;
     width: 100vw;
     height: 100vh;
-    grid-template-rows: 80px 4fr 150px;
+    grid-template-rows: 80px 4fr 120px;
+    background-color: #fcf9e8;
 }
+
+
 
 header{
-    background-color: brown;
+    display: flex;
 }
+
+.container_cima{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementos{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulo{
+    font-family: 'Bowlby One SC';
+    font-style: normal;
+    font-size: 1.0rem;
+    color: #EB5638;
+}
+
+.logo{
+    position: absolute;
+    justify-content: center;
+    left: 520px;
+    top: 28px;
+}
+
+.logo2{
+    position: absolute;
+    left: 1390px;
+    right: 300px;
+}
+
+
+
 
 main{
-    background-color: cadetblue;
+   display: grid;
+   justify-content: center;
+   align-items: center;
 }
 
+.container_principal{
+    display: grid;
+}
+
+.fonte{
+    position: absolute;
+    width: 1254px;
+    height: 178px;
+    left: 93px;
+    top: 95px;
+    font-family: 'Bowlby One SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 105px;
+    line-height: 160px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 9px 9px 0px #EB5638;
+}
+
+.image{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    left: 117px;
+    top: 170px;
+}
+
+
+
+
 footer{
-    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+}
+
+.container_baixo{
+    display: flex;
+}
+
+.botao{
+    box-sizing: border-box;
+    width: 246px;
+    height: 68px;
+    background: #FFFFFF;
+    border: 3px solid #EB5638;
+    box-shadow: 7px 7px 0px #EB5638;
+}
+
+p{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #EB5638;
 }
