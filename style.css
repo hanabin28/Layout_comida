@@ -14,7 +14,7 @@ body{
 
 
 
-
+/* TOPO (LOGO E MENU) */
 
 header{
     width: 100%;
@@ -34,6 +34,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     word-spacing: 25px;
+    left: 500px;
 }
 
 .titulo{
@@ -43,23 +44,11 @@ header{
     color: #EB5638;
 }
 
-.logo{
-    position: absolute;
-    justify-content: center;
-    left: 20px;
-    top: 28px;
-}
-
-.menu{
-    position: absolute;
-    left: 1390px;
-    right: 300px;
-}
+/*      */
 
 
 
-
-
+/* FOTO E TITULO */
 
 main{
    width: 100%;
@@ -67,6 +56,7 @@ main{
 }
 
 .container_principal{
+    width: 100%;
     height: 100%;
     display: grid;
     justify-content: center;
@@ -74,37 +64,33 @@ main{
 }
 
 .elementos_princ{
-    height: 90%;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
 }
 
-.image{
-    height: 70%;
-    background-image: url(./img/eiliv-aceron-5nvt9BrLaAc-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    border-radius: 40px;
+.elementos_princ img{
+    border-radius: 91px;
+    width: 800px;
+    height: 450px;
 }
 
 .fonte{
-    height: 20%;
+    line-height: 0rem;
+    z-index: 10;
+    position: absolute;
     font-family: 'Bowlby One SC';
     font-style: normal;
     font-weight: 400;
-    font-size: 6.2rem;
-    text-align: center;
+    font-size: 5rem;
     color: #FFFFFF;
     text-shadow: 0.12em 0.1em 0em #EB5638;
     -webkit-text-stroke: 2px #EB5638;
 }
 
+/*      */
 
 
 
-
-
+/* BOTÃO */
 
 footer{
     width: 100%;
@@ -129,9 +115,10 @@ footer{
 
 p{
     text-align: center;
-    height: 100%;
     font-family: 'Rubik';
     font-style: normal;
     font-size: 24px;
     color: #EB5638;
 }
+
+/*      */
